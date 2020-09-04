@@ -5,7 +5,7 @@ variable "region" {
 
 variable "project_id" {
   type    = string
-  default = "codefresh-sa"
+  default = "doc-20200904095929"
 }
 
 variable "cluster_name" {
@@ -45,5 +45,5 @@ variable "k8s_version" {
 
 variable "destroy" {
   type    = bool
-  default = true
+  default = false
 }
